@@ -1,0 +1,41 @@
+#reservas {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e8cb9a;
+  border-radius: 8px;
+}
+
+#reservas h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#reservas form {
+  display: flex;
+  flex-direction: column;
+}
+
+#reservas label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#reservas input,
+#reservas textarea {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #46220f;
+  border-radius: 4px;
+}
+
+#reservas button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #623307;
+  cursor: pointer;
+}
+
+#reservas button:hover {
+  background-color: #623307;
+}
